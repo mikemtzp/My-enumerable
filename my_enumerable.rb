@@ -1,6 +1,7 @@
 require './module'
 
 class MyList
+  include MyEnumerable
   def initialize(*arr)
     @list = arr
   end
